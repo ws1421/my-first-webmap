@@ -1,6 +1,16 @@
 #mapContainer {
   width: 75%;
   height: 500px;
-  background-color: steelblue;
-  margin: 0 auto;
+    margin: 0 auto;
   }
+
+header {
+  font-family: Georgia;
+  color: LightSkyBlue;
+  text-align: center;
+}
+
+body{
+  background-image: url(https://elitesportsny.com/wp-content/uploads/2018/05/tampa-bay-rays-v-new-york-yankees-e1526546400999.jpg);
+
+}
