@@ -1,0 +1,58 @@
+[
+  {
+    "Arena": "Yankee Stadium",
+    "Sport": "MLB",
+    "Capacity": 54251,
+    "longitude": -73.926954,
+    "latitude": 40.829491
+  },
+  {
+    "Arena": "Citi Field",
+    "Sport": "MLB",
+    "Capacity": 41922,
+    "longitude": -73.846037,
+    "latitude": 40.756567
+  },
+  {
+    "Arena": "Metlife Stadium",
+    "Sport": "NFL",
+    "Capacity": 82500,
+    "longitude": -74.074427,
+    "latitude": 40.813574
+  },
+  {
+    "Arena": "Barclays Center",
+    "Sport": "NBA, NHL",
+    "Capacity": 17732,
+    "longitude": -73.975309,
+    "latitude": 40.682635
+  },
+  {
+    "Arena": "Madison Square Garden",
+    "Sport": "NBA, NHL",
+    "Capacity": 19812,
+    "longitude": -73.993494,
+    "latitude": 40.750528
+  },
+  {
+    "Arena": "Prudential Center",
+    "Sport": "NHL",
+    "Capacity": 16514,
+    "longitude": -74.171131,
+    "latitude": 40.733482
+  },
+  {
+    "Arena": "Nassau Coliseum",
+    "Sport": "NHL",
+    "Capacity": 13917,
+    "longitude": -73.590733,
+    "latitude": 40.72288
+  },
+  {
+    "Arena": "Red Bull Arena",
+    "Sport": "MLS",
+    "Capacity": 25000,
+    "longitude": -74.150296,
+    "latitude": 40.736856
+  }
+]
