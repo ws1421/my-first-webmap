@@ -45,9 +45,39 @@ $.getJSON('./data/arenas.json', function(arenas) {
   arenas.forEach(function(arena) {
     console.log(arena.Arena, arena.Capacity)
 
-    new mapboxgl.Marker()
+    var html = `
+      <h3>${arena.Arena}</h3>
+      <div>Sports played: ${arena.Sport}</div>
+      <div>Capacity: ${arena.Capacity}</div>
+    `
+
+    var color = 'ALiceBlue'
+
+    if (arena.Sport === 'MLB') {
+      color = 'Blue'
+    }
+
+    if (arena.Sport === 'NFL') {
+      color = 'Green'
+    }
+
+    if (arena.Sport === 'NBA, NHL') {
+      color = 'Red'
+    }
+
+    if (arena.Sport === 'NHL') {
+      color = 'Yellow'
+    }
+
+    if (arena.Sport === 'MLS') {
+      color = 'HotPink'
+    }
+
+    new mapboxgl.Marker({
+      color: color
+    })
     .setLngLat([arena.longitude, arena.latitude])
-  //  .setPopup(new mapboxgl.Popup().setHTML(`<h5>${arena .name}</h5>`))
+    .setPopup(new mapboxgl.Popup().setHTML(html))
     .addTo(map);
 
   })
